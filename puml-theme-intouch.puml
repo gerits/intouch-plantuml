@@ -1,0 +1,27 @@
+!$THEME = "intouch"
+
+!if %not(%variable_exists("$BGCOLOR"))
+!$BGCOLOR = "transparent"
+!endif
+
+skinparam backgroundColor $BGCOLOR
+
+skinparam shadowing false
+skinparam style strictuml
+skinparam boxPadding 5
+
+skinparam participant {
+	backgroundColor #0058ff
+	borderColor #ffffff
+	fontColor #ffffff
+}
+
+skinparam sequence {
+	dividerBackgroundColor #FFFFFF
+	dividerBorderColor #4AF5B8
+	dividerFontColor #110043
+	arrowColor #110043
+	arrowBorderColor #110043
+	boxBorderColor #DDE6F6
+	boxBackgroundColor #DDE6F6
+}
